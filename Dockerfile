@@ -1,5 +1,5 @@
 # Stage 1: Build the React Frontend
-from node:20-slim as build
+FROM node:20-slim AS build
 
 WORKDIR /app
 
@@ -14,7 +14,7 @@ COPY . .
 RUN npm run build
 
 # Stage 2: Setup Python Backend
-from python:3.11-slim
+FROM python:3.11-slim
 
 WORKDIR /app
 
