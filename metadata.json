@@ -1,0 +1,8 @@
+
+{
+  "name": "Expert Troubleshooter AI",
+  "description": "A high-performance technical diagnostic assistant designed to analyze error logs, identify root causes, and provide prioritized, safe solutions across OS, shells, and development environments.",
+  "requestFramePermissions": [
+    "clipboard-write"
+  ]
+}
